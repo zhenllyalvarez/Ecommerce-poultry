@@ -1,0 +1,19 @@
+    @keyframes scroll {
+        from {
+            transform: translateX(100%);
+        }
+
+        to {
+            transform: translateX(-100%);
+        }
+    }
+
+    .marquee {
+        white-space: nowrap;
+        animation: scroll 10s linear infinite;
+    }
+
+    .yeah {
+        background: rgb(63,251,201);
+        background: radial-gradient(circle, rgba(63,251,201,1) 0%, rgba(252,235,70,1) 100%);
+    }         
